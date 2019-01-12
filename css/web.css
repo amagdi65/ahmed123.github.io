@@ -1,0 +1,583 @@
+/*global*/
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+.container
+{
+    width: 1200px;
+    margin: auto;
+}
+/*end global*/
+
+/*start navbar*/
+nav
+{
+    height: 0;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+   
+}
+nav .head
+{
+    float: left;
+    width: 50%;
+}
+nav .head h2
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Ravie";
+}
+
+nav .navbar
+{
+    float: left;
+    width: 50%;
+}
+nav .navbar ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    font-family: arial;
+    
+}
+nav .navbar ul li
+{
+    display: inline-block;
+    padding: 20px 0px 5px;;
+    margin: 0 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+    
+}
+nav .navbar ul li:hover, nav .navbar ul .active
+{
+    border-bottom: 2px solid #1CB596;
+    color: #1CB596;
+    cursor: pointer;
+}
+
+
+/*end navbar*/
+/*start header*/
+header
+{
+    
+    background: url(../images/160913_01578WEB.jpg);
+    height: 600px;
+}
+header .overly
+{
+    background-color: rgba(0,0,0,.7);    
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    
+}
+header .bx-wrapper 
+{
+      
+    background: none;
+    border: 0;
+    box-shadow: none;
+    height: 100%;
+
+    
+
+}
+
+header .bx-wrapper .bx-viewport
+{
+    height: 100% !important;
+    text-align: center;
+    
+}
+header .slider
+{
+    height: 100%;
+
+}
+header .slider li
+{
+    display: block;
+
+
+}
+header .slider li h2
+{
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: -21px;
+    font-family: "Showcard Gothic";
+    font-weight: normal;
+}
+header .slider li span
+{
+    color: #1CB596;
+}
+header .slider li P
+{
+    width: 480px;
+    margin: 0 auto;
+    font-family: arial;
+    
+}
+
+
+/*end header*/
+
+/*start our service*/
+#about
+{
+    margin-bottom: 25px;
+    padding: 20px;
+}
+#about h2
+{
+    padding-top: 20px;
+    font-family: arial;
+    font-weight: normal;
+}
+
+#about .item
+{
+    float: left;
+    width: 33.3333%;
+    margin-bottom: 20px;
+    margin-top: 60px;
+   
+}
+#about .item i
+{
+    color: #1CB596;
+    background-color: #fff;
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 12px;
+    
+}
+#about .item .info
+{
+    float: left;
+    width: 70%;
+    
+
+}
+#about .item .info h3
+{
+    color: #2c2c2c;
+    font-family: arial;
+    font-weight: normal;
+}
+
+#about .item .info p
+{
+    color: #b6b6b6;
+    font-family: arial;
+}
+
+/*end our service*/
+
+/*start portfolio*/
+#porttt
+{
+    
+}
+#porttt .info
+{
+    float: left;
+    width: 35%;
+    margin-right: 2%;
+}
+#porttt .images
+{
+    margin-top: 50px;
+    padding-top: 20px;
+    float: left;
+    width: 63%;
+    
+}
+#porttt .images .box img
+{
+    padding-right: 26px;
+    width: 100%;
+    height: 100%;
+}
+#porttt .images img:last-child
+{
+    padding-right: 0;
+    width: 100%;
+    height: 100%;
+}
+#porttt h2
+{
+   margin-top: 50px;
+   padding-top: 20px;
+   color: #2c2c2c;   
+   font-family: arial;
+    font-weight: normal;
+}
+#porttt p
+{
+    color: #b6b6b6;
+    line-height: 1.7;
+    padding-top: 18px;
+    font-family: arial;
+}
+.box
+{
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+    
+}
+.box:last-child
+{
+    margin-right: 0;
+}
+.box .overly
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 0px;
+}
+.box .overly:hover
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background-color: rgb(27,188,154,.8);
+    padding-top: 75px;
+    text-align: center;
+    color: #d5f0e9;
+    font-family: arial;
+    
+}
+
+/*end portfolio*/
+/*start testimonials*/
+#test
+{
+    background-image: url(../images/anime1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 70px;
+    padding: 80 0px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    
+    
+}
+#test .overly
+{
+ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.8);
+    color: #FFF;
+    
+    
+}
+#test h2
+{
+    margin: 75px ;
+    margin-bottom: 100px;
+    font-size: 30px; 
+    font-family: "Ravie";
+    font-weight: normal;
+}
+#test h2 span
+{
+    border-bottom: 1px solid #fff;
+}
+#test q
+{
+    font-family: arial;
+    font-size: 20px;
+    
+}
+#test  p
+{
+    margin-top: 50px;
+    font-family: arial;
+    font-size: 20px;
+    color: #1CB596;
+    
+}
+#test .slider2 > div
+{
+    display: none;
+}
+#test .slider2 .act
+{
+    display: block;
+}
+
+/*end testimonials*/
+/*start project*/
+
+/*end project*/
+
+#port
+{
+    padding: 5px 0;
+}
+#port h2
+{
+    font-weight: normal;
+    font-family: arial;
+}
+
+#port button
+{
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
+    padding: 10px 25px;
+    color: #9b9b9b;
+    font-family: arial;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 15px;
+    
+}
+#port .active
+{
+    background-color: #1cb596;
+    color: #fff;
+}
+
+#port .row  
+{
+    margin-top: 30px;
+    text-align: left;
+    overflow: hidden;
+    
+}
+#port .row:first-of-type
+{
+    margin-top: 39px;
+}
+#port .row div
+{
+    display: inline-block;
+    float: left;
+    width: 370px;
+    height: 215px;
+    position: relative;
+}
+#port .row img
+{
+   margin-right: 25px;
+   width: 100%;
+
+}
+#port .row  > div:nth-child(2)
+{
+    margin: 0 30px;
+}
+#port .row div .overly
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 15px;
+    display: none;
+        
+
+}
+#port .row div .overly span:first-of-type
+{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: arial;
+}
+#port .row div .overly .heart
+{
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: arial;
+    
+}
+#port .row div:hover .overly
+{
+    display: block;
+    background: rgb(27,188,154,.8);
+    color: #fff;
+}
+#cont .mix
+{
+    display: none;
+}
+/*start footer*/
+#contact
+{
+    padding: 30px 0;
+    padding-bottom: 0px;
+    margin-top: 110px;
+    background-color: #232323;
+    
+}
+#contact section
+{
+    width: 23%;
+    margin-right: 2%;
+    float: left;
+    
+}
+#contact section h2
+{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: arial;
+    color: #fff;
+    padding-top: 20px;  
+    margin-bottom: 30px ;
+}
+#contact section p
+{
+    color: #848484;
+    font-family: arial;
+    margin-bottom: 30px;
+    
+}
+#contact section i
+{
+    color: #fff;
+    border: 1px solid #9c9c9c;
+    padding: 5px 8px;
+    margin: 3px;
+    margin-bottom: 30px;
+}
+#contact .tag
+{
+    padding-left:39px;
+}
+#contact .tag span
+{
+    border: 1px solid #9c9c9c;
+    padding: 5px 8px;
+    color: #fff;
+    margin: 5px 2px;
+    display: inline-block;
+}
+#contact article
+{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+#contact .image 
+{
+    float: left;
+    margin-top: 3px;
+}
+#contact .infor
+{
+    float: left;
+    margin-top: -20px;
+    margin-left: 10px;
+    
+}
+#contact .infor h5
+{
+    margin-bottom: 10px;
+    color: #c4c4c4;
+    font-family: arial;
+}
+#contact .infor span
+{
+    font-family: arial;
+    color: #636363;
+}
+#contact .blog ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#contact .blog ul li
+{
+    font-family: arial;
+    border-bottom: 1px solid #575757;
+    margin: 10px 0;
+    color: #c4c4c4;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+/*end footer*/
+
+/*frameworl*/
+
+.clearfix
+{
+    clear: both;
+}
+.special-heading:after
+{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 40px;
+    border-bottom: 1px solid #333;
+    margin-top: 10px;
+
+}
+.special-heading2:after
+{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 60px;
+    border-bottom: 1px solid #fff;
+    margin-top: 10px;
+    left: 468px;
+
+}
+.separetor
+{
+    border: 1px solid #eee;
+    display: block;
+}
+
+/*end framework*/
